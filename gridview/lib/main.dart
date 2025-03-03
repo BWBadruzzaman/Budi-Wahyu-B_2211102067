@@ -27,33 +27,33 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text("He'd have you all unravel at the"),
-                color: Colors.teal[100],
+                child: const Text("Rise up, no one's gonna stop it"),
+                color: const Color.fromARGB(255, 182, 7, 7),
               ),
               Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text('Heed not the rabble'),
-                color: Colors.teal[200],
+                child: const Text("We aimin' for the big time"),
+                color: Color.fromARGB(255, 125, 51, 51),
               ),
               Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text('Sound of screams but the'),
-                color: Colors.teal[300],
+                child: const Text('Tokyo to worldwide, we pull up'),
+                color: Color.fromARGB(255, 182, 7, 7),
               ),
               Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text('Who scream'),
-                color: Colors.teal[400],
+                child: const Text('Drive the whip in the kodak'),
+                color: Color.fromARGB(255, 182, 7, 7),
               ),
               Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text('Revolution is coming...'),
-                color: Colors.teal[500],
+                child: const Text("This 'ballistik' you know that (hoo)"),
+                color: Color.fromARGB(255, 121, 68, 68)
               ),
               Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text('Revolution, they...'),
-                color: Colors.teal[600],
+                child: const Text("Top the feed 'cause we on that"),
+                color: Color.fromARGB(255, 97, 41, 41),
               ),
             ],
           ),
