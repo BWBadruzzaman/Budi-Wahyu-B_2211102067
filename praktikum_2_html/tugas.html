@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bootstrap Sederhana</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar dengan 3 menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Konten Utama -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- Card dengan gambar dan deskripsi -->
+                <div class="card shadow">
+                    <img src="pnshj.jpg" class="card-img-top" alt="Gambar Sampul">
+                    <div class="card-body">
+                        <h5 class="card-title">B-満月</h5>
+                        <p class="card-text">Bulan Purnama.</p>
+                        
+                        <!-- Tombol dengan style Bootstrap -->
+                        <a href="#" class="btn btn-success">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
